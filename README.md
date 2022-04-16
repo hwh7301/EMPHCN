@@ -37,7 +37,7 @@ In the "data" folder, we provide the compressed format of the datasets T1,T2 use
 - p_p.pt:protein-protein associations
 ## Usage
 ### Quick start
-We use the dataset T1 to illustrate an example. You should first enter the "datasets" folder and unzip the "T1.zip" file. Then you just need to go back to the MAHGNN file directory and run the following code:
+We use the dataset T1 to illustrate an example. You should first enter the "data" folder and unzip the "T1.zip" file. Then you just need to go back to the EMPHCN file directory and run the following code:
 
 ```bash
 python main.py --dataset T1
