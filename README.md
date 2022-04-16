@@ -16,7 +16,7 @@ The required packages are as follows:
 
 ## Data availability
 In the "data" folder, we provide the compressed format of the datasets T1,T2 used in the paper. If you want to use them, please download and unzip them first. 
-### T1 datasets
+### T1 dataset
 - drug-disease associations in the T1 dataset were selected from ZhangDDA
 - sim_pathway.txt: pathway similarity matrix
 - sim_target.txt: target similarity matrix
@@ -26,7 +26,7 @@ In the "data" folder, we provide the compressed format of the datasets T1,T2 use
 - d_p.pt:drug-protein associations
 - r_p.pt:diseas-protein associations
 - p_p.pt:protein-protein associations
-### T2 datasets
+### T2 dataset
 - drug-disease associations in the T2 dataset were selected from repoDB
 - sim_chemical.txt: chemical similarity matrix
 - sim_clinical.txt: clinical similarity matrix
@@ -42,7 +42,7 @@ We use the dataset T1 to illustrate an example. You should first enter the "data
 ```bash
 python main.py --dataset T1
 ```
-##### T2 Datesets
+##### T2 dataset
 
 ```bash
 python main.py --dataset folder_name
