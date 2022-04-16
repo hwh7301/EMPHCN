@@ -15,7 +15,7 @@ The required packages are as follows:
 - scikit-learn==0.21.3
 
 ## Data availability
-In the "datasets" folder, we provide the compressed format of the datasets T1,T2 used in the paper. If you want to use them, please download and unzip them first. 
+In the "data" folder, we provide the compressed format of the datasets T1,T2 used in the paper. If you want to use them, please download and unzip them first. 
 ### T1 datasets
 - drug-disease associations in the T1 dataset were selected from ZhangDDA
 - sim_pathway.txt: pathway similarity matrix
