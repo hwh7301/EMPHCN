@@ -15,12 +15,12 @@ The required packages are as follows:
 - scikit-learn==0.21.3
 
 ## Data availability
-In the "data" folder, we provide the compressed format of the datasets T1,T2 used in the paper. If you want to use them, please download and unzip them first. 
+we provide the compressed format of the datasets T1,T2 used in the paper. If you want to use them, please download and unzip the "datasets.zip" file. 
 ### T1 dataset
 #### drug-disease associations in the T1 dataset were selected from ZhangDDA
 - sim_pathway.txt: pathway similarity matrix
 - sim_target.txt: target similarity matrix
-- sim_drug-drug interaction.txt:drug-drug interactions similarity matrix
+- sim_rr.txt:drug-drug interactions similarity matrix
 - sim_enzyme.txt:drug enzymes similarity matrix
 - spilt_x.mat:10 cross validation index
 - d_p.pt:drug-protein associations
@@ -37,7 +37,7 @@ In the "data" folder, we provide the compressed format of the datasets T1,T2 use
 - p_p.pt:protein-protein associations
 ## Usage
 ### Quick start
-We use the dataset T1 to illustrate an example. You should first enter the "data" folder and unzip the "T1.zip" file. Then you just need to go back to the EMPHCN file directory and run the following code:
+We use the dataset T1 to illustrate an example. You should first unzip the "code.zip" file and unzip the "datasets.zip" file. Then you just need to go  to the "code" file directory and run the following code:
 
 ```bash
 python main.py --dataset T1
