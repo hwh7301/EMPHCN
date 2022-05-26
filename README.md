@@ -1,4 +1,4 @@
-# EMPHCN：Drug repositioning based on the enhanced message passing and hypergraph convolutional networks
+# EMPHCN
 ## Install
 To use EMPHCN you must make sure that your python version is greater than 3.7. If you don’t know the version of python you can check it by:
 ```python
